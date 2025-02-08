@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: cyan;
+    padding: 2rem;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.menu {
+    width: 45%;
+    background-color: pink;
+    padding: 20px;
+}
+
+main {
+    padding: 1rem;
+}
